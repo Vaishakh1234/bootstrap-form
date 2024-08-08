@@ -15,17 +15,17 @@
 <body>
 
 
-   <div class="container gx-2 p-5 ">
+   <div class="container-fluid p-md-5 pt-4" >
 
-     <div class="row mb-4 d-flex ">
-          <div class="col-6 ">
-          <div class="container rounded-4  p-5" style="background: #FFFFFF;" >
+     <div class="row mx-auto" >
+          <div class=" col-xl-6  mt-2">
+          <div class=" rounded-4  p-4" style="background: #FFFFFF;" >
 
           <h2 class="mb-4">Basic Details</h2>
 
           <form action="">
 
-          <div class="row mb-4">
+          <div class="row  mb-4">
                <div class="col">
                      <label for="formFile"  class="imgBox w-100 text-center p-2 rounded-3 pt-4">
                          <i class="icon fa-solid fa-download"></i>
@@ -36,9 +36,9 @@
                </div>
 
           </div>
-          <div class="row mb-4">
+          <div class="row ">
 
-               <div class="col-3">
+               <div class="col-md-3">
                     <label for="exampleFormControlInput1" class="form-label">Salutation*</label>
                     <select class="form-select rounded-4" aria-label="Default select example">
                      <option selected>select</option>
@@ -47,7 +47,7 @@
                      <option value="3">Three</option>
                   </select>
                </div>
-                <div class="col">
+                <div class="col-md-3">
 
                     <div class="">
                        <label for="exampleFormControlInput1" class="form-label">First name*</label>
@@ -55,7 +55,7 @@
                     </div>
                </div>
 
-                <div class="col">
+                <div class="col-md-6">
 
                     <div class="">
                        <label for="exampleFormControlInput1" class="form-label">Last name*</label>
@@ -64,16 +64,16 @@
                </div>
 
           </div>
-          <div class="row mb-4">
+          <div class="row ">
 
-                <div class="col">
+                <div class="col-md-6">
                     <div class="">
                        <label for="exampleFormControlInput1" class="form-label">Email Address*</label>
                        <input type="email" class="form-control rounded-4" id="exampleFormControlInput1" placeholder="vaishakh@gmail.com">
                     </div>
                </div>
 
-                <div class="col">
+                <div class="col-md-6">
 
                     <div class="">
                        <label for="exampleFormControlInput1" class="form-label">Mobile Number*</label>
@@ -83,7 +83,7 @@
 
           </div>
 
-          <div class="row mb-4">
+          <div class="row ">
 
                 <div class="col">
                     <div class="">
@@ -92,10 +92,10 @@
                     </div>
                </div>
 
-                <div class="col">
+                <div class="col-md-6">
                       <label for="exampleFormControlInput1" class="form-label">Gender *</label>
                       <div >
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mt-2">
                     <input class="form-check-input rounded-4" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                     <label class="form-check-label" for="flexRadioDefault1">
                         Male
@@ -115,7 +115,7 @@
           </div>
 
           
-          <div class="row mb-4">
+          <div class="row ">
 
                 <div class="">
                     <label for="exampleFormControlInput1" class="form-label">Address*</label>
@@ -123,10 +123,10 @@
                </div>
           </div>
 
-          <div class="row mb-4">
+          <div class="row ">
             
 
-               <div class="col">
+               <div class="col-md-6">
                     <label for="exampleFormControlInput1" class="form-label">country*</label>
                     <select class="form-select rounded-4" aria-label="Default select example">
                      <option selected>select country</option>
@@ -136,7 +136,7 @@
                   </select>
                </div>
 
-               <div class="col">
+               <div class="col-md-6">
                     <label for="exampleFormControlInput1" class="form-label">State*</label>
                     <select  class=" form-select rounded-4" aria-label="Default select example">
                      <option selected>select states</option>
@@ -147,14 +147,14 @@
                </div>
           </div>
 
-          <div class="row mb-4">
+          <div class="row ">
 
-                <div class="col">
+                <div class="col-md-6">
                     <label for="exampleFormControlInput1" class="form-label">City*</label>
                     <input type="email" class="form-control rounded-4" id="exampleFormControlInput1" placeholder="Enter city">
                </div>
 
-                <div class="col">
+                <div class="col-md-6">
                     <label for="exampleFormControlInput1" class="form-label">Pin/Zip*</label>
                     <input type="email" class="form-control rounded-4" id="exampleFormControlInput1" placeholder="Enter zip/pin">
                </div>
@@ -169,15 +169,15 @@
           </div>
                
           </div>
+         
+          <div class="col-xl-6 mt-2">
 
-          <div class="col-6">
-
-                <div class="container  p-5 rounded-4" style="background: #FFFFFF;" >
+                <div class="  p-4 rounded-4" style="background: #FFFFFF;" >
 
                    <h2 class="mb-4">Advanced Details</h2>
 
                    <div class="row mb-4">
-                      <div class="col">
+                      <div class="colmd-6">
                          <div class="alert alert-warning alertBox" role="alert">
                            <h5> Sample warning messages - alert</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.</p>
@@ -185,41 +185,43 @@
                       </div>
                    </div>
                    <div class="row mb-5">
-                     <div class="col">
+                     <div class="col-md-6">
+                         <label for="" class="form-label">width</label>
                            <div class="d-flex align-items-center">
                                 <input type="range" class="form-range me-2" min="0" max="200" step="1" id="slider1" style="width: 60%;" value="160" oninput="this.nextElementSibling.value = this.value + 'cm'" required>
                                 <output class="btn btn-outline-secondary px-3 fs-8 rounded-2 range-box">160cm</output>
                             </div>
                      </div>
                      <div class="col">
+                           <label for="" class="form-label">height</label>
                            <div class="d-flex align-items-center">
                                 <input type="range" class="form-range me-2" min="0" max="200" step="1" id="slider1" style="width: 60%;" value="160" oninput="this.nextElementSibling.value = this.value + 'cm'" required>
                                 <output class="btn btn-outline-secondary px-3 fs-8 rounded-2 range-box">160cm</output>
                             </div>
                      </div>
                    </div>
-                    <div class="row mb-4">
-                      <div class="col-4">
-                         <label for="exampleColorInput" class="form-label">Choose your color:</label>
+                    <div class="row ">
+                      <div class="col-md-4">
+                         <label for="exampleColorInput" class="form-label">Choose color:</label>
                          <input type="color" class="form-control form-control-color w-100" id="exampleColorInput" value="#563d7c" title="Choose your color">
                       </div>
 
-                      <div class="col-8">
-                          <label for="exampleColorInput" class="form-label d-block">Choose your color:</label>
+                      <div class="col-md-8">
+                          <label for="exampleColorInput" class="form-label d-block">Choose template:</label>
                           <div class="row ">
-                           <div class="col-4">
-                               <div class="form-check form-check-inline">
+                           <div class="col-4 mt-2">
+                               <div class="form-check form-check-inline ">
                               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" checked value="option1">
                               <label class="form-check-label" for="inlineCheckbox1">Template1</label>
                              </div>
                            </div>
-                           <div class="col-4">
+                           <div class="col-4 mt-2">
                                <div class="form-check form-check-inline">
                               <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
                               <label class="form-check-label" for="inlineCheckbox2">Template2</label>
                              </div>
                            </div>
-                           <div class="col-4">
+                           <div class="col-4 mt-2">
                                <div class="form-check form-check-inline">
                               <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
                               <label class="form-check-label" for="inlineCheckbox3">Template3</label>
@@ -231,7 +233,7 @@
 
                     </div>
 
-                    <div class="row mb-4">
+                    <div class="row ">
                      <div class="col">
                        <label for="exampleFormControlInput1" class="form-label">Qualifications*</label>
                        <input type="email" class="form-control rounded-4" id="exampleFormControlInput1" placeholder="Enter qualification">
@@ -239,7 +241,7 @@
 
                     </div>
 
-                    <div class="row mb-4">
+                    <div class="row ">
                          <div class="col">
                               <div class="">
                                  <label for="exampleFormControlTextarea1" class="form-label">About yourself*</label>
@@ -248,7 +250,7 @@
                          </div>
                     </div>
 
-                    <div class="row mb-4">
+                    <div class="row ">
                          <div class="col">
                              <div class="form-group">
                                 <div class="form-check">
@@ -262,17 +264,17 @@
                     </div>
 
           </div>
+         </div>
      </div>
-   </div>
 
-   <div class="row "></div>
-      <div class="col p-3  rounded-4 d-flex flex-row-reverse" style="background-color: #FFFFFF;">
-             <div class="footer-btns">
-                <button class="btn btn-light me-2 my-3 p-3">Cancel</button>
-                <button class="btn btn-primary my-3 p-3">Save Changes</button>
-            </div>
-      </div>
-
+     <div class="row mt-4 mx-auto" >
+          <div class="col " >
+               <div class="container-fluid rounded-4  d-flex justify-content-end" style="background-color: #FFFFFF;">
+                     <button class="btn btn-light me-2 my-3 p-3">Cancel</button>
+                    <button class="btn btn-primary my-3 p-3">Save Changes</button>
+               </div>
+          </div>
+     </div>
   </div>
          
 
@@ -280,3 +282,5 @@
 
 </body>
 </html>
+
+   

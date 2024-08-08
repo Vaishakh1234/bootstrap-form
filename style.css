@@ -3,7 +3,14 @@ body{
    color: #2B3674;
 
 }
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+input,select,textarea{
+    margin-bottom: 20px;
+}
 .imgBox{
     border: 3px dashed #B2BAD0;
     color:#4318FF;
