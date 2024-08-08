@@ -1,0 +1,19 @@
+body{
+    background-color: #E9EDF2;
+   color: #2B3674;
+
+}
+
+.imgBox{
+    border: 3px dashed #B2BAD0;
+    color:#4318FF;
+ 
+}
+.imgBox .icon{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.alertBox{
+    color: #624E17;
+
+}
